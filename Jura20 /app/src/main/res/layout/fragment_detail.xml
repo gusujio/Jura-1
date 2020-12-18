@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.HomeFragment.DetailFragment">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="231dp"
+        tools:src="@tools:sample/avatars"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment"
+        android:textSize="30sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="250dp"
+        android:textStyle="italic"
+        android:textColor="#000"
+        />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="335dp"
+        android:layout_marginBottom="125dp" />
+
+    <Chronometer
+        android:id="@+id/recording_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="530dp"
+        android:layout_marginStart="50dp"
+        android:textSize="30sp"
+        />
+    <ImageView
+        android:id="@+id/play"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="500dp"
+        android:scaleX="1"
+        android:scaleType="fitCenter"
+        android:src="@drawable/micro"/>
+
+</FrameLayout>

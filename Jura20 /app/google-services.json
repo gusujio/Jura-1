@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "847702721605",
+    "project_id": "jura2-0",
+    "storage_bucket": "jura2-0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847702721605:android:93ab56f7b28501e9bfcf2c",
+        "android_client_info": {
+          "package_name": "com.example.jura20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847702721605-91qpv37rgv526vf2npeupqe5aihm245b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHrxyzGbl6PD2qiNriOc47twNdKc4VSxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847702721605-91qpv37rgv526vf2npeupqe5aihm245b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
