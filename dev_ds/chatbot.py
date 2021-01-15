@@ -10,7 +10,6 @@ import copy
 import sys
 import html
 
-from utils import TextLoader
 from model import Model
 
 def main():
@@ -124,10 +123,10 @@ def possibly_escaped_char(raw_chars):
 
 import pyttsx3
 import speech_recognition as sr
+import language_tool_python as lt
 
 def Jura_listen(file = None):
     r = sr.Recognizer()
-    #если мы хотим использовать файл, то вместо sr.Microphone() нужно sr.AudioFile(‘file.wav’)
     if file == None:
         first = sr.Microphone()
     else:
@@ -146,10 +145,35 @@ def Jura_speak(text):
     engine.say(text)
     engine.runAndWait()
 
+
+def Jura_correct(text):
+    tool = lt.LanguageToolPublicAPI('en-US')
+    matches = tool.check(text)
+    number_mistakes = len(matches)
+    if number_mistakes == 0:
+        print('ok')
+        return None
+    else:
+        print('Shall i fix you?', '\n', 'y\\n?')
+        user_answer = input()
+        if user_answer == 'y' or user_answer == 'Y' or user_answer == 'yes' or user_answer == 'Yes' or user_answer == 'YES':
+            if number_mistakes == 1:
+                Jura_speak('You have one mistake')
+            else:
+                Jura_speak('You have' + str(number_mistakes) + 'mistakes')
+
+            Jura_speak('I think you should have said')
+
+            t2 = tool.correct(text)
+            Jura_speak(tool.correct(t2))
+            print(2)
+
 def chatbot(net, sess, chars, vocab, max_length, beam_width, relevance, temperature, topn):
     states = initial_state_with_relevance_masking(net, sess, relevance)
     while True:
-        user_input = Jura_listen()
+        # user_input = Jura_listen()
+        user_input = input('|>')
+        print(1)
         user_command_entered, reset, states, relevance, temperature, topn, beam_width = process_user_command(
             user_input, states, relevance, temperature, topn, beam_width)
         if reset: states = initial_state_with_relevance_masking(net, sess, relevance)
@@ -171,7 +195,10 @@ def chatbot(net, sess, chars, vocab, max_length, beam_width, relevance, temperat
                 if i >= max_length: break
             #---
             print(an)
-            Jura_speak(an)
+
+            Jura_correct(an)
+            # Jura_speak(an)
+            print(3)
             #---
             states = forward_text(net, sess, states, relevance, vocab, sanitize_text(vocab, "\n> "))
 
