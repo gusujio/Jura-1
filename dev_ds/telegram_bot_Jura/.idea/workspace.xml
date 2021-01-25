@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b7d8786-4223-4211-916f-b8e0bf255915" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nT3lzfXtVXA9EB2rlozoBtc2c6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="telegram_bot_Jura" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="telegram_bot_Jura" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/telegram_bot_Jura.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.telegram_bot_Jura" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b7d8786-4223-4211-916f-b8e0bf255915" name="Default Changelist" comment="" />
+      <created>1611400409325</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611400409325</updated>
+      <workItem from="1611400416358" duration="8083000" />
+      <workItem from="1611419076168" duration="8353000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="371" y="207" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611436849332">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="371" y="207" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1611436849332" />
+    <state width="1238" height="195" key="GridCell.Tab.0.bottom" timestamp="1611418774660">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="1238" height="195" key="GridCell.Tab.0.bottom/0.25.1280.775@0.25.1280.775" timestamp="1611418774660" />
+    <state width="1238" height="195" key="GridCell.Tab.0.center" timestamp="1611418774659">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="1238" height="195" key="GridCell.Tab.0.center/0.25.1280.775@0.25.1280.775" timestamp="1611418774659" />
+    <state width="1238" height="195" key="GridCell.Tab.0.left" timestamp="1611418774659">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="1238" height="195" key="GridCell.Tab.0.left/0.25.1280.775@0.25.1280.775" timestamp="1611418774659" />
+    <state width="1238" height="195" key="GridCell.Tab.0.right" timestamp="1611418774660">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="1238" height="195" key="GridCell.Tab.0.right/0.25.1280.775@0.25.1280.775" timestamp="1611418774660" />
+    <state x="0" y="25" width="1280" height="775" key="com.intellij.ide.util.TipDialog" timestamp="1611423776257">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state x="0" y="25" width="1280" height="775" key="com.intellij.ide.util.TipDialog/0.25.1280.775@0.25.1280.775" timestamp="1611423776257" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/telegram_bot_Jura$test.coverage" NAME="test Coverage Results" MODIFIED="1611401330341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
